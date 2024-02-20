@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Youv'e logged in {% endblock %}
+
+{% block content %}
+<h1 class="text-center">Dashboard</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h4>
+                Logged In As: {{ email }}
+            </h4>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
